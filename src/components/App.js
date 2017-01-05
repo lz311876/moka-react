@@ -6,7 +6,7 @@ class App extends React.Component {
     }
     render() {
         return (
-            <div class="app">
+            <div className="app">
                 app
                 {this.props.children}
             </div>

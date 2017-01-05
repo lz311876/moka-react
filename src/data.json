@@ -1,0 +1,12 @@
+{
+  "data": [
+    {
+      "departmentName": "工程研发部门",
+      "jobTitle": ["Mac开发工程师","iOS App测试工程师","Android远程控制工程师","Web前端工程师"]
+    },
+    {
+      "name": "产品设计部门",
+      "jobTitle": ["网页设计师","ID/工业设计师","视觉设计师/GUI界面设计师","平面设计师"]
+    }
+  ]
+}
