@@ -3,6 +3,7 @@ import React, { PropTypes }  from 'react';
 class Checkbox extends React.Component {
     constructor(props) {
         super(props);
+        this.check = this.check.bind(this);
     }
 
     check() {
@@ -12,7 +13,8 @@ class Checkbox extends React.Component {
     render() {
         return(
             <div>
-                <input type="checkbox" checked={this.props.checked} onClick={this.check}/>
+                <input type="checkbox" name="check-box" checked={this.props.checked} onClick={this.check}/>
+                {this.props.children}
             </div>
         );
     }
@@ -26,7 +28,8 @@ Checkbox.defaultProps = {
 Checkbox.propTypes = {
     index: PropTypes.number,
     checked: PropTypes.bool,
-    onCheck: PropTypes.func
+    onCheck: PropTypes.func,
+    children: PropTypes.array
 };
 
 export default Checkbox;
