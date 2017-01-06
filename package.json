@@ -1,0 +1,32 @@
+{
+  "name": "react-checkGroup",
+  "version": "0.1.0",
+  "description": "",
+  "engines": {
+    "npm": ">=3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+  },
+  "author": "nino",
+  "license": "MIT",
+  "dependencies": {
+    "react": "15.3.2",
+    "react-dom": "15.3.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "0.25.0",
+    "html-webpack-plugin": "2.24.0",
+    "json-loader": "0.5.4",
+    "node-sass": "^4.1.1",
+    "react-router": "^3.0.0",
+    "sass-loader": "4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

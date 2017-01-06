@@ -1,0 +1,45 @@
+.depart {
+  margin-bottom: 20px;
+  font-size: 26px;
+  input[type="checkbox"] {
+    zoom: 170%;
+  }
+  label {
+    margin-left: 28px;
+  }
+  .num {
+    display: inline-block;
+    float: right;
+    width: 70px;
+    height: 40px;
+    line-height: 42px;
+  }
+  &-title {
+    height: 40px;
+    line-height: 40px;
+    label {
+      color: #fff;
+    }
+    .num {
+      background-color: #4a626e;
+      border-radius: 20px;
+      color: #fff;
+      text-align: center;
+    }
+  }
+}
+
+.check-box {
+  height: 35px;
+  line-height: 35px;
+  margin-left: 55px;
+  position: relative;
+  label, .num {
+    color: #cad7d8;
+  }
+  .num {
+    position: absolute;
+    right: 12px;
+    text-align: right;
+  }
+}
