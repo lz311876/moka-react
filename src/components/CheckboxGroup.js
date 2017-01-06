@@ -74,14 +74,17 @@ class CheckboxGroup extends React.Component {
         const { data } = this.props;
         return(
                 <div className="depart">
-                    <input type="checkbox" checked={checkAllStatus} onClick={this.checkAll}/>
-                    <label>{data.departmentName}</label>
-                    <span>{data.total}</span>
+                    <div className="depart-title">
+                        <input type="checkbox" checked={checkAllStatus} onClick={this.checkAll}/>
+
+                        <label>{data.departmentName}</label>
+                        <span className="num">{data.total}</span>
+                    </div>
                     {
                         data.job.map((item, index) =>
                             <Checkbox key={index} index={index} checked={checkArr[index]} onCheck={this.check}>
                                 <label>{item.title}</label>
-                                <span>{item.num}</span>
+                                <span className="num">{item.num}</span>
                             </Checkbox>
                         )
                     }

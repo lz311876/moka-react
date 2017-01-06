@@ -6,7 +6,7 @@
     "npm": ">=3"
   },
   "scripts": {
-    "dev": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
+    "start": "webpack-dev-server --devtool eval --progress --colors --hot --content-base build"
   },
   "author": "nino",
   "license": "MIT",
@@ -22,8 +22,10 @@
     "css-loader": "0.25.0",
     "html-webpack-plugin": "2.24.0",
     "json-loader": "0.5.4",
+    "node-sass": "^4.1.1",
     "react-router": "^3.0.0",
     "sass-loader": "4.0.2",
+    "style-loader": "^0.13.1",
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2"
   }

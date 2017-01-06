@@ -21,14 +21,19 @@ class Example extends React.Component {
         const { data } = this.state;
         return(
             <div>
-                <h3 className="example-title">招聘职位</h3>
-                <span className="clearAll" onClick={this.clearAll}>清空</span>
-                {
-                    data.map((item, index) =>
-                        <CheckboxGroup data={item} key={index} ref={index}/>
-                    )
+                <div className="example">
+                    <div className="example-title">
+                        <h3>招聘职位</h3>
+                        <span className="clearAll" onClick={this.clearAll}>清空</span>
+                    </div>
+                    {
+                        data.map((item, index) =>
+                            <CheckboxGroup data={item} key={index} ref={index}/>
+                        )
 
-                }
+                    }
+                </div>
+                <div className="others"></div>
             </div>
         );
     }

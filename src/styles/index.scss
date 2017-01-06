@@ -1,0 +1,24 @@
+@import "./checkbox";
+.example {
+  width: 660px;
+  height: 1650px;
+  padding: 75px 50px 0 60px;
+  background-color: #597584;
+
+  &-title {
+    position: relative;
+    h3 {
+      font-size: 36px;
+      color: #cad7d8;
+    }
+  }
+
+  .clearAll {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+  }
+}
